@@ -1,0 +1,17 @@
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/dto/TransactionRequest.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/entity/Category.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/dto/TransactionResponse.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/dto/LoginRequest.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/controller/TransactionController.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/service/TransactionService.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/entity/Transaction.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/entity/User.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/service/EncryptionService.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/repository/UserRepository.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/dto/RegisterRequest.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/ExpenseTrackerApplication.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/repository/CategoryRepository.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/dto/MonthlyReportResponse.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/repository/TransactionRepository.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/dto/AuthResponse.java
+/Users/kritan/wells-fargo-interview/secure-expense-tracker/backend-api/src/main/java/com/wellsfargo/interview/expensetracker/dto/UserStatsResponse.java

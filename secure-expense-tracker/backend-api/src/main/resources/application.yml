@@ -1,0 +1,68 @@
+# Application Configuration
+spring.application.name=expense-tracker-api
+server.port=8080
+
+# Database Configuration (H2 for development, PostgreSQL for production)
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=password
+
+# JPA/Hibernate Configuration
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.format_sql=true
+
+# H2 Console (for development only)
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+# Security Configuration
+app.jwt.secret=mySecretKey123456789012345678901234567890
+app.jwt.expiration=86400000
+
+# Encryption Configuration
+app.encryption.key-file=encryption.key
+
+# Actuator Configuration
+management.endpoints.web.exposure.include=health,info,metrics
+management.endpoint.health.show-details=when-authorized
+
+# API Documentation
+springdoc.api-docs.path=/v3/api-docs
+springdoc.swagger-ui.path=/swagger-ui.html
+springdoc.swagger-ui.operationsSorter=method
+
+# Logging Configuration
+logging.level.com.wellsfargo.interview.expensetracker=DEBUG
+logging.level.org.springframework.security=DEBUG
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} - %msg%n
+
+---
+# Production Profile
+spring.config.activate.on-profile=prod
+
+# PostgreSQL Configuration (for production)
+spring.datasource.url=jdbc:postgresql://localhost:5432/expense_tracker
+spring.datasource.username=${DB_USERNAME:expenseuser}
+spring.datasource.password=${DB_PASSWORD:expensepass}
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA Configuration for Production
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.show-sql=false
+
+# Disable H2 Console in production
+spring.h2.console.enabled=false
+
+# Security Configuration for Production
+app.jwt.secret=${JWT_SECRET:myProductionSecretKey123456789012345678901234567890}
+app.jwt.expiration=86400000
+
+# SSL Configuration (if needed)
+# server.ssl.enabled=true
+# server.ssl.key-store=classpath:keystore.p12
+# server.ssl.key-store-password=changeit
+# server.ssl.key-store-type=PKCS12
